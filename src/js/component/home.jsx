@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from "./cards";
 import NavigationBar from "./naviBar.jsx";
 import Jumbotrons from "./jumbotron.jsx";
+import Footer from "./footer";
 
 //create your first component
 function Home  ()  {
@@ -21,6 +22,9 @@ function Home  ()  {
 			</div>
 			<div>
 				<Cards/>
+			</div>
+			<div>
+				<Footer/>
 			</div>
 		</div>
 		
